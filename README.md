@@ -14,7 +14,7 @@ import "fmt"
 import . "github.com/turingou/go-endswith"
 
 func main() {
-  if EndsWithString("Im a sentence", "sentence") {
+  if EndsWith("Im a sentence", "sentence") {
     fmt.Println("Im a sentence ends with `sentence`")
   } else {
     fmt.Println("Not found")
